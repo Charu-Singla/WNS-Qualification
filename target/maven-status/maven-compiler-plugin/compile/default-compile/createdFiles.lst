@@ -1,0 +1,11 @@
+com\test\wns\mapper\AbstarctFinalCritExtMapper.class
+com\test\wns\mapper\AbstarctFinalCritExtMapperImpl.class
+com\test\wns\model\EmbeddedPrimaryKey.class
+com\test\wns\controller\WnsController.class
+com\test\wns\dto\FinalCritExtDTO.class
+com\test\wns\WnsQualificationTestApplication.class
+com\test\wns\model\FinalCritExt.class
+com\test\wns\service\CSVFileWriter.class
+com\test\wns\service\WnsService.class
+com\test\wns\exception\CustomExceptionHandler.class
+com\test\wns\repository\WnsRepository.class

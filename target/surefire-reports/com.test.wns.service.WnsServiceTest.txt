@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.test.wns.service.WnsServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.336 s <<< FAILURE! - in com.test.wns.service.WnsServiceTest
+generateCsvFileTest  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.test.wns.service.WnsServiceTest.generateCsvFileTest(WnsServiceTest.java:50)
+
