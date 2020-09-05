@@ -1,11 +1,14 @@
 package com.test.wns.dto;
 
+import java.util.Objects;
+
 /**
  * This is data transfer object to take input from entity and write to csv file
  * 
  * @author charusingla
  *
  */
+
 public class FinalCritExtDTO {
 
 	private String company;
@@ -99,4 +102,33 @@ public class FinalCritExtDTO {
 		this.vehcat = vehcat;
 	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(acceptcrit, addmod, changetimestamp, company, effectivedate, effectiveenddate,
+				enddatetimestamp, internetjep, nvic, vehcat);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		FinalCritExtDTO other = (FinalCritExtDTO) obj;
+		return Objects.equals(acceptcrit, other.acceptcrit) && Objects.equals(addmod, other.addmod)
+				&& Objects.equals(changetimestamp, other.changetimestamp) && Objects.equals(company, other.company)
+				&& Objects.equals(effectivedate, other.effectivedate)
+				&& Objects.equals(effectiveenddate, other.effectiveenddate)
+				&& Objects.equals(enddatetimestamp, other.enddatetimestamp)
+				&& Objects.equals(internetjep, other.internetjep) && Objects.equals(nvic, other.nvic)
+				&& Objects.equals(vehcat, other.vehcat);
+	}
+
+
+
+	
+	
+	
 }
